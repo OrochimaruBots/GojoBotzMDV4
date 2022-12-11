@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, command }) => {
   let mentionedJid = [m.sender]
 let scnya = `⟥⟞⟚━┈┈ ❨ Hʏ ${tag} ❩ ┈┈━⟚⟝⟤`
     let footerny = `┆📑  *Base* : https://github.com/Hyuura-Official/YushinoMdV3\n*Recode* : *Privat🔒*`
- conn.send3ButtonImg(m.chat, `https://telegra.ph/file/bf8b82dc34d14d25e67b8.jpg`, scnya, footerny, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+ conn.send3ButtonImg(m.chat, `https://telegra.ph/file/8a92cacf688cc9404d5b3.jpg`, scnya, footerny, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://instagram.com/kahfiofc0',
     mediaType: 2, 
     description: sgc,
